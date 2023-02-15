@@ -55,10 +55,10 @@
 
 <div style="display:flex">
      <div style="flex:1;padding-right:0px;">
-            <img src="./out_2.png" width="100%" />
+            <img src="./out_2.png" width="50%" />
      </div>
      <div style="flex:1;padding-left:0px;">
-            <img src="./out_readapt.png" width="100%" />
+            <img src="./out_readapt.png" width="50%" />
      </div>
 </div>
 
