@@ -25,7 +25,7 @@ This repository is for the code used in the experimental analysis of [A Theory o
 ## Gather the Dataset for the VAEB Defense
 1. Open `Generate_Coop_Team_Dataset.py` and replace the directories of where the datasets will be saved and which cooperative model to load in. Then run `python Generate_Coop_Team_Dataset.py`. The cooperative team dataset ends with `_dataset_with_label.pkl`.
 
-## Pull a Variational [Auto-Encoder Bayes](https://github.com/angzhifan/Auto-Encoding_Variational_Bayes) Github Repository for some utilities.
+## Pull [Variational Auto-Encoder Bayes](https://github.com/angzhifan/Auto-Encoding_Variational_Bayes) Github Repository for some utilities.
 1. Run `git pull https://github.com/angzhifan/Auto-Encoding_Variational_Bayes`. We leverage some helper functions from the repository.
 
 ## Train the VAEB model using the dataset collected from the Cooperative Team
