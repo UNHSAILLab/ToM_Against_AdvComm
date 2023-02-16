@@ -35,7 +35,7 @@ This repository is for the code used in the experimental analysis of [A Theory o
 1. Run `python ParameterSearchingRho.py` will evaluate our theory of mind mitigation method with various intervals for the parameter rho. We selected rho based on an analysis plot of return over episodes per fixed interval.
 
 ## Evaluate the Baseline and Defenses.
-
+For all evaluations, please set the action selection to be deterministic, this can be done by passing a parameter before model evaluation function.
 1. Open `Evaluate_VAEB.py` and replace the <b> cooperative team model</b> directory and <b> VAEB model</b> directory with yours. Run `python Evaluate_VAEB.py` which will generated the <b> VAEB baseline for the cooperative team performance before readaption in CoverageEnv </b>.
 2. Open `Evaluate_VAEB.py` and replace the <b> readapted cooperative team model directory</b> and <b> VAEB model</b> directory with yours. Run `python Evaluate_VAEB.py` which will generated the <b> VAEB performance for the readapted cooperative team in CoverageEnv </b>.
 3. Open `ParameterSearchingRho.py` and comment-in `eval_nocomm_adv(mode=0)` and comment-out the line above it `eval_nocomm_adv(mode=1)`. Replace the <b> cooperative team before readaption directory</b> with yours and the <b> evaluation output directory</b> where you would like to store the evaluation scores. This will generated the ToM defense performance for the cooperative team before readaption training.
