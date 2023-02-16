@@ -16,7 +16,7 @@ This repository is for the code used in the experimental analysis of [A Theory o
 5. We modified `CoverageEnv`'s configuration file, so adjust accordingly to available resources.
 
 ## Training in the Standard Coverage Environment
-1. Follow the directions from the adv_comm repo or continue to (2).
+1. Follow the directions from the `adv_comm` repository or continue to (2).
 2. Run `python train_policy.py coverage -t 6` to train the cooperative team in the coverage environment for 6 million timesteps with only cooperative agents.
 3. Run `python continue_policy.py [cooperative checkpoint path] -t 12 -e coverage -o self_interested` to train the self-interested agent for 6 million timesteps given a fixed cooperative policy.
 4. Run `python continue_policy.py [adversarial checkpoint path] -t 18 -e coverage -o re_adapt` to have the cooperative team retrain/perform readaption training in the presence of a fixed adversary policy.
