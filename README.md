@@ -1,4 +1,5 @@
 # A Theory-of-Mind Mitigation Against Adversarial Communication
+This repo is for the code used in experimental analysis of [A Theory of Mind Approach as Test-Time Mitigation Against Emergent Adversarial Communication](https://arxiv.org/abs/2302.07176)
 
 ## Dependencies:
 - Python 3.7.11
@@ -10,7 +11,7 @@
 
 1. From your terminal, run `git pull https://github.com/proroklab/adversarial_comms.git`
 2. Either follow the repo's installation instructions or continue to (3)
-3. Run `pip install -r requirements.txt'
+3. Run `pip install -r requirements.txt`
 4. Run `python setup.py install`
 5. We modified `CoverageEnv`'s configuration file, so adjust accordingly to available resources.
 
