@@ -3,6 +3,7 @@ This repository is for the code used in the experimental analysis of [A Theory o
 
 ## Dependencies:
 - Python 3.7.11
+- Torch 1.7.1
 - Raylib 1.3.0
 - [Adversarial Comm](https://github.com/proroklab/adversarial_comms) Repository
 - [Auto Encoding Variational Bayes](https://github.com/angzhifan/Auto-Encoding_Variational_Bayes) Repository
