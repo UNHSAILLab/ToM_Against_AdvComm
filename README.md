@@ -1,5 +1,4 @@
-# A Theory of Mind Approach as Test-Time Mitigation Against
-Emergent Adversarial Communication
+# A Theory of Mind Approach as Test-Time Mitigation Against Emergent Adversarial Communication
 This repository is for the code used in the experimental analysis of [A Theory of Mind Approach as Test-Time Mitigation Against Emergent Adversarial Communication](https://arxiv.org/abs/2302.07176)
 
 ## Dependencies:
